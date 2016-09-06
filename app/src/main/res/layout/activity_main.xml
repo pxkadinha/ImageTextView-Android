@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent"
+    tools:context="com.pescadinha.imagetextview.MainActivity">
+    <com.pescadinha.imagetextview.ImageTextView
+        android:id="@+id/imageText"
+        app:findNextDot="true"
+        app:putImageAt="200"
+        android:src="@drawable/dummy"
+        android:lineSpacingMultiplier="1.2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lorem" />
+</LinearLayout>

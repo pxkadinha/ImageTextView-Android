@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ImageTextView">
+        <attr name="putImageAt" format="integer"/>
+        <attr name="android:text" />
+        <attr name="android:src" />
+        <attr name="android:scaleType" />
+        <attr name="findNextDot" format="boolean"/>
+    </declare-styleable>
+</resources>
